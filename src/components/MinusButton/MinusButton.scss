@@ -1,0 +1,9 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.minus-button {
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    background-color: $color-white;
+    border: none;
+}

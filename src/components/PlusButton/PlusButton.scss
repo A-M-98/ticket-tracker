@@ -1,0 +1,10 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.plus-button {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    background-color: $color-white;
+    border: none;
+}

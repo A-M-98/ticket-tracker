@@ -1,0 +1,27 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.counter-heading {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.counter-display {
+    background-color: $color-white;
+    height: 3rem;
+    width: 7rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    &__count {
+        font-size: 30px;
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}

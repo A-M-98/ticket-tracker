@@ -1,6 +1,9 @@
 import './App.scss';
 import Card from './components/Card/Card';
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import team from './data/ticket-data.js';
+
+console.log(team)
 
 function App() {
   return (
@@ -8,7 +11,7 @@ function App() {
     <div className="app">
       < Header />
       <div>
-      <Card/>
+      <Card name={team.name} role={team.role}/>
       </div>
     </div>
     </>
