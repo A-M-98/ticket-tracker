@@ -1,0 +1,11 @@
+//card.scss
+@use "../../assets/sass/_variables.scss" as *;
+
+.main-card {
+    height: 16rem;
+    width: 10rem;
+    border: 2px solid $color-black;
+    margin: 15px;
+    padding: 10px;
+    background-color: $color-secondary;
+}
