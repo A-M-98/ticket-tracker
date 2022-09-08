@@ -12,6 +12,9 @@ const Counter = () => {
     }
 
     const decrement = () => {
+        if(count === 0) {
+            return;
+        }
         setCount(count - 1);
     }
 
