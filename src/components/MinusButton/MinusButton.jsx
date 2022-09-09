@@ -1,5 +1,6 @@
 import React from 'react'
 import './MinusButton.scss'
+//Minus button 
 
 const MinusButton = () => {
   return (

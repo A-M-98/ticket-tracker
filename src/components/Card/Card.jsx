@@ -1,10 +1,11 @@
 import React from 'react'
 import CardHeading from '../CardHeading/CardHeading'
 import CounterCard from '../CounterCard/CounterCard'
-// import team from '../../data/ticket-data.js'
 import './Card.scss'
+// the main ticket Card
 
 const Card = (props) => {
+    //passing down and adding props
     const { info } = props
 
   return (
