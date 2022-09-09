@@ -7,7 +7,6 @@ const CounterCard = () => {
     <>
     <div className='counter-card'>
         <Counter />
-
     </div>
     </>
   )

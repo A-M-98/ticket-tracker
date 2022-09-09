@@ -3,15 +3,14 @@ import Card from './components/Card/Card';
 import Header from "./components/Header/Header";
 import team from './data/ticket-data.js';
 
-console.log(team)
 
-function App() {
+function App () {
   return (
     <>
     <div className="app">
       < Header />
-      <div>
-      <Card name={team.name} role={team.role}/>
+      <div className='app__employee-cards'>
+   
       </div>
     </div>
     </>
