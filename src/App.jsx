@@ -10,7 +10,9 @@ function App () {
     <div className="app">
       < Header />
       <div className='app__employee-cards'>
-   
+      {team.map((employee) => {
+        return (< Card key={employee.id} info={employee}/>)
+      })}
       </div>
     </div>
     </>
